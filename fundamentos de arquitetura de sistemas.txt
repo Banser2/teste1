@@ -1,0 +1,136 @@
+WEB SERVICE-são soluçoes para aplicações se comunicarem
+independente de linguagem, software e hardwares utilizados
+
+XML(Extensible markup language)
+URI(UNIFORM RESOURCE IDENTIFIER)
+
+
+VANTAGENS
+linguegam comum
+integração
+reutilização de implementação
+seguraça
+custos
+
+
+PRINCIPAIS TECNOLOGIAS
+SOAP- simple object access protocol baseado em xml
+acessar serviços web principalmente por http
+vantagens - permite integrações, meio de transporte generico
+
+ESTRUTURA SOAP -
+soap envelope- primeiro elemento do documento e é usado para encapsular todas a mensagem SOAP.
+soap header- É O ELEMENTO ONDE POSSUI INFORMÇÕES DE ATRIBUTOS METADADOS DA REQUISIÇÃO.
+soap body- É O ELEMENTO QUE CONTEM OS DETALHES DA MENSAGEM
+
+REST- REPRESENTATIONAL STATE TRANSFER
+é um estilo de arquitetura de software que define a implamentação de um serviço web
+pode trabalhar com os formatos XML, JSON OU OUTROS.
+
+VANTAGENS DO REST
+permite integrações entre aplicações e tambem entre clinete e
+servidor em paginas web e aplicaçoes
+utiliza		 dos metados HTTP para define a operação que esta sendo efetuada
+arquitetura de facil com preensão
+
+XML- EXTENSIBLE MARKUP LANGUAGE CRIARDO NA DECADA DE 90
+PELA W3C FACILITA A SEPAÇÃO DE CONTEUDO NÃO TEM LIMITAÇÃO DE CRIAÇÃO DE TAG
+LINGUAGEM COMUM PARA INTEGRAÇÃO ENTRE APLICAÇÕES
+
+JSON-JAVASCRIPT OBJECT NOTATION
+formatação leve utilizada pata troca de mensagens entre sistemas
+usa-se de uma estrutura de chave e valor e tambem de lista ordenadas.
+um dos formatos mais populares e mais utilizados para troca de mensagens entre sistemas.
+
+----------------------------------------------------------------------------------------------------------------
+WSDL- WEB SERVICES DECRIPTION LANGUAGE
+Usado para descrever web services, funciona como um contrato do serviço
+a discrição e feito em documento XML , onde é descrito o serviço
+especificações de acesso , operaçoes e metados.
+
+XSD- XML SCHEMA DEFINITION
+é um schema no formato xml usado para definir a estrutura de dados que será validada no XML
+o XSD funciona como uma documentção de como deve sr montado
+o soap messagem XML que será enviado atraves de web service.
+
+API-APPLICATION PROGRAMMING INTERFACE
+são conjuntos de rotinas documentados e disponibilizados por uma aplicação
+para que outras aplicações possam consumir suas funcionalidade
+ficou popular com aumento dos serviços web
+
+as maiores plataformas de tecnologia disponiblizam apis para acessos
+de suas funcinalidade algumas delas são: facebook whatssap
+
+PRINCIPAIS METADOS HTTP
+GET- SOLICITA A REPRESENTAÇÃO DE UM RECURSO
+POST- SOLICITA A CRIAÇÃO DE UM RECURSO
+DELETE SOLICITA A EXCLUSÃO DE UM RECURSO
+PUT SOLICITA A ATUALIZAÇÃO DE UM RECURSO
+
+
+CODIGO DE ESTADOS
+1XX- INFORMATIVO
+2XX- SUCESSO
+3XX- REDIRECIONAMENTO
+4XX- ERRO DO CLIENTE
+5XX- ERRO DO SERVIDOR
+
+------------------------------------------------------------------------------------------------------------------------------------
+TIPOS DE ARQUITETURA
+
+MONOLITO- UMA UNICA APLICAÇÕES
+pros-
+baixa complexidade
+monitoramento
+simplicado
+
+contra-
+stack
+compartilhamento de recursos
+acoplamento
+mais complexo a escabilidade
+
+MICROSERVIÇOS-1
+pros-
+stack dinamica
+simples escabilidade
+
+contra-
+acoplamento
+monitoramento complexo
+provisionamento mais complexo
+
+MICORSERVIÇOS-2
+pros-
+stack dinamica
+simples escabilidade
+desacoplamento
+
+contra-
+monitoramento mais complexo
+provionamento mais complexo
+
+MICOSERVIÇOS-3
+pros-
+stack dinamica
+simples escabilidade
+desacoplamento
+menos complexidade
+
+contra-
+provisionamento mais complexo
+plataforma inteira depende do gerenciador de pipeline
+
+
+github.com/jeffhsta/fundamentos_arquitetura
+
+
+
+introdução internet das coisas-
+
+1969-arpanet connect computadores de centro de pesquisa apos acabou crecendo
+
+
+arquitetura da internet das coisas- 
+
+estudo de caso-

@@ -1,0 +1,45 @@
+GIT-> 
+
+SHA1- significa secure hash algorithm (algoritmo de hash
+seguro) é conjunto de funções hash cripgraficas proje
+tadas pela nsa (agencia de segurança nacional di EUA).
+40 digito e unico seve para identificação
+
+OBJETOS FUNDAMENTAIS- 
+
+BLOBS- POSSUI METADADOS
+
+TREES- ARMAZENANDO BLOBS E APONTA PRA DIFERENTES 
+E GUARDA O NOME DO ARQUIVO
+
+COMMITS- junta tudo aponta arvore para parente autor 
+mensagem possui tambem um sha1
+
+SISTEMA DISTRIBUIDO SEGURO- 
+
+
+git init inicializa um repositorio dentro de pasta
+
+tracked - rastrado subdivide ciencia deles
+
+unmodified - não foi modificado
+modified - foi modificado /editar arquivo
+staged- preparando /rodar o git vai staged add
+
+untracked - não tem ciencia 
+
+Repositorio- servido - remote repository
+
+Ambiente de desenvolvimento
+
+working directory
+stagind area
+local repository
+
+
+alterar email e nikeneme
+
+git config --global --unset user.email
+                            user.nickname
+
+para adicinar navamente so basta tira o unset
