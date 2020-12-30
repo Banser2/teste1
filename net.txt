@@ -1,0 +1,37 @@
+passado presente e futuro
+
+o que é C#:linguagem que começou criada 90 junto com dotnet 2000
+vem sendo evoluida 2019 versão 8.
+
+C# é uma linguagem elegante, orientada a objeto e fortimente tipada
+
+a sintexe do C# é similar a do C, C++ ou java
+
+Suporta os conceito de encapsulamento,herança e polimorfismo(oo)
+
+
+é execurtado no dotnet inclui CLR , conjunto unificado
+de biblioteca de classes
+atualmente o compilador do C# é o Roslyn
+
+
+como funciona:o codigo fonte escrito em c# é compilado em uma
+linguagem intermediaria (IL)
+
+o codigo e os recurso de IL são armazenados no disco
+em um arquivo executavel chmado assembly geralmente com
+uma extenção .exe ou .dll
+
+quando o programa C# é execultado, o assembly é carregado no CLR
+
+emseguida o CLR executará a compilação just in time (JIT) para
+converter o codigo IL em intruções de maquina nativa
+
+o CLR tambem fornece outros serviços:
+Garbage Collector- coletando lixo
+exception handler- receber controlar exeçoes de errros
+resources manager- 
+
+
+estrutura de programa:
+
