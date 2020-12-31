@@ -33,5 +33,59 @@ exception handler- receber controlar exeçoes de errros
 resources manager- 
 
 
-estrutura de programa:
+estrutura de programa:principais conceitos organizacinais
+programa
+namespaces
+tipos
+membros
+assemblies
 
+
+TIPOS VARIAVEIS- variaveis de tipos de valor contem diretamente seus
+dados
+as variaveis tem sua propria copia dos dados e não é
+possivel que as operações afetem outra variavel
+(exceto no caso das variaveis de parametro ref e out)
+
+numerico: SBYTE, SHORT,INT,LONG,BYTE,USHORT,UINT,ULONG
+caracteres unicode: CHAR
+pontos flutuantes:FLOAT,DOUBLE,DECIMAL
+booleano:BOOL
+ENUM,ATRUCT ETIPOS NULLABLE(EXEMPLO INT)
+
+variaveis de tipos de referencia armazenam referencias
+a seus dados
+é possivel que duas variaveis façam referencia ao
+mesmo objeto e,portanto, que operaçoes em uma
+variavel afetem o objeto referenciado pela outra variavel
+
+tipos classe: class , obect,string
+tipos arrays: int[],int[,], 
+interfce, delegate
+
+
+INSTRUÇÕES- ações de uam programa são expressas usando instruções
+{ um bloco permite que varias intruções sejam escritas em contextos
+}
+
+declarção de variaveis e constantes locais
+IF
+SWITCH
+WHILE
+DO
+FOR
+FOREACH
+
+instruções auxiliares
+
+BREAK
+CONTINUE
+RETURN
+THROW
+TRY.. CATCH.. FINALLY
+USING
+
+ARRAYS-
+
+
+try e catch
