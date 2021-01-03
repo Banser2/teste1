@@ -88,4 +88,101 @@ USING
 ARRAYS-
 
 
-try e catch
+CLASSES E OBJETOS-
+calasse são tipo mais fundamental d C#
+uma classe é estrutura de dados que combina estado (campos) e ações
+(metados)
+
+OBJETOS-
+objetos são instancia de uma classe
+as classes suportam herança e polimorfismo, mecanismo pelos quais
+as classes derivadas podem estender e especializar as classses base
+
+
+
+instancias de classes (objetos) são criada usando o operador new que aloca memoria para uma nova instancia 
+chama um construtor para inicializar a instancia e retorna uma referencia a instancia
+
+ponto p1 = new pont (0,0);
+ponto p2 = new ponto (10,20);
+
+a memoria ocupada por um objeto é recuperada automaticamente
+quando o objeto não esta mais acessivel. não é necessario nem possivel
+desalocar explicitamente objeto em C#
+
+MENBROS-
+OS MENBROS DE UMA CLASSE PODEM SER ESTATICOS OU MENBROS DA INSTANCIA
+MENBROS ESTATICOS PERTENCEM A CLASSE E MENBROS DE INSTANCIA PERTENCEM
+AO OBJETO
+
+constantes, variaveis , metados, propriedades, construtores
+
+ACESSIBILIDADE
+
+cada menbro de uma classe tem uma acessibilidade associada, que controla
+as regiões do texto do programa que podem acessar o membro
+
+pode ser:
+public
+protected
+internal
+private
+
+HERANÇA-
+uma cdeclaração de classe pode especificar uma classe base, herdando
+os membros public, internal e protected da classe base
+
+omitir uma especificação de classe base é o mesmo que derivar do tipo object
+
+
+METADOS-
+ um metado é um membro que implementa uma computação ou ação que pode ser executada
+por um objeto ou classe
+
+os metados podem te uma lista de parametro, que repesentam valores ou referencias de 
+variaveis passados para o metado, e um tipo de retorno que esoecifica o tipo do valor
+calculado e retornado pelo metado
+
+
+STRUCTS-
+como as classes, as structs são estrutura de dados que podem conter menbros
+de dados e membros de ação, mas, diferentimente das classes, as structs
+são tipos de valor e não requerem alocação de heap
+
+uma variavel de um tipo de struct armazena diretamente os dados
+da estrutura, enquento uma variavel de um tipo de classe armazena
+uma referencia a um objeto alocado na memoria  
+
+VANTAGENS
+uso de structs em vez de classes para pequenas estruturas de dados pode fazer uma grande diferencia
+no numero de alocação de memoria
+
+construtores de structs são chmados com o operador new, semelhante a um
+construtor de classe , mas em vez de alocar dinamicamente de objeto no
+heap grenciado e retornar uma referencia a ele , um construtor struct simplesmente
+retorna o proprio valor struct (normalmente em local temporario na stack)
+e esse valor é copiado conforme necessario
+
+INTERFACES-
+uma interface define um contrato que pode ser implementado por classes
+e structs
+
+uma interface pode conter metodos, propriedades, eventos
+e indexadores
+
+uma interface não fornce implementações dos membros que define apenas
+suas assinaturas
+
+as interfaces podem empregar herença multipla
+
+
+ENUMS-
+um enum é um tipo de valor distinto com um conjunto de constantes nomeadas
+
+voves define enumerações quando precisa definir um
+tipo que pode ter um conjunto de valores dicretos
+eles usam um tipos de valor integral como
+armazenamento subjacente. ele forbecem significado semantico aos valores discretos
+
+
+

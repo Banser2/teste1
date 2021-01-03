@@ -1,0 +1,13 @@
+c:\Users\bande\Documents\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.exe
+c:\Users\bande\Documents\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.deps.json
+c:\Users\bande\Documents\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.runtimeconfig.json
+c:\Users\bande\Documents\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.runtimeconfig.dev.json
+c:\Users\bande\Documents\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.dll
+c:\Users\bande\Documents\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.pdb
+c:\Users\bande\Documents\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.csprojAssemblyReference.cache
+c:\Users\bande\Documents\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.AssemblyInfoInputs.cache
+c:\Users\bande\Documents\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.AssemblyInfo.cs
+c:\Users\bande\Documents\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.csproj.CoreCompileInputs.cache
+c:\Users\bande\Documents\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.dll
+c:\Users\bande\Documents\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.pdb
+c:\Users\bande\Documents\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.genruntimeconfig.cache
